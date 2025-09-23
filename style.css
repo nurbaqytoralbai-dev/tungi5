@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #38868a;
+  width: 800px;
+  height: 1000px;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  background-color: #4e9496;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+}
+hr {
+  color: black;
+  border: solid 1px;
+  width: 100%;
+  height: 1px;
+}
+.taimer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.ano {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  font-family: sans-serif;
+}
+.ano button {
+  font-size: 40px;
+  padding: 20px;
+  color: #4e9496;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 10px;
+}
+.taimer {
+  background-color: #4e9496;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.txt h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.txt h3 {
+  color: #7ab2b2;
+}
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.bttn {
+  background-color: #76adaf;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  height: 60px;
+  font-size: 40px;
+  color: white;
+}
+.hr2 {
+  color: white;
+  border: solid 1px;
+  width: 100%;
+  height: 1px;
+}
+.bttns {
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  height: 60px;
+  font-size: 20px;
+  width: 30px;
+  color: grey;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bot1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+}
+.tit {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.bot2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 5px;
+}
